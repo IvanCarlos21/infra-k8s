@@ -1,0 +1,55 @@
+---  # Début de document
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: monitoring
+  labels:
+    purpose: monitoring
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: application
+  labels:
+    purpose: app
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: security
+  labels:
+    purpose: security
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: cicd
+  labels:
+    purpose: cicd
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: logging
+  labels:
+    purpose: logging
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: backup
+  labels:
+    purpose: backup
+
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ingress
+  labels:
+    purpose: ingress
